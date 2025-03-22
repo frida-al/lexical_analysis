@@ -39,4 +39,17 @@ Any other letter of the latin alphabet or any other symbol will not be accepted 
 The automaton I designed for this project is the following:
 
 ![Automaton](https://github.com/frida-al/lexical_analysis/blob/main/Automaton_.png)
+--- 
+### Regular expression
 
+Regular expressions or 'regex' "are patterns used to match character combinations in strings" (MDN, 2025).
+Another way to represent the automaton i will be working on, is using a regular expression. In this case, as in the automaton model, I will use the same alphabet and the same conditions for accepting a string or not. 
+
+The regular expression is the following:
+(^An) ((d(o | ú(ril | në))) | (ga) | (n-thannath))
+Breaking it down a little bit, it indicates the accepted words must start with An, followed with one of the options provided next.
+
+---
+## References
+GeeksforGeeks. (2024, september 12). *Introduction of Finite Automata*. GeeksforGeeks. https://www.geeksforgeeks.org/introduction-of-finite-automata/ 
+MDN Web Docs. (2025, january 24). *Regular expressions - JavaScript*. MDN. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions
