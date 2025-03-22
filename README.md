@@ -38,7 +38,7 @@ Any other letter of the latin alphabet or any other symbol will not be accepted 
 
 The automaton I designed for this project is the following:
 
-![Automaton](https://github.com/frida-al/lexical_analysis/blob/main/Automaton_.png)
+![Automaton](https://github.com/frida-al/lexical_analysis/blob/main/Automaton.png)
 --- 
 ### Regular expression
 
