@@ -51,7 +51,10 @@ The regular expression is the following:
 (^An) ((d(o | ú(ril | në))) | (ga) | (n-thannath))
 
 Breaking it down a little bit, it indicates the accepted words must start with An, followed with one of the options provided next.
+---
+### Time complexity
 
+The time complexity of this code is O(n), given that the automaton has to process each letter of the word and lookup all the paths, consulting one in which the word will be valid. This is achievable thanks to the recursive function.
 ---
 ## References
 GeeksforGeeks. (2024, september 12). *Introduction of Finite Automata*. GeeksforGeeks. https://www.geeksforgeeks.org/introduction-of-finite-automata/ 
