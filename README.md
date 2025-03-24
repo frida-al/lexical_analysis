@@ -62,3 +62,5 @@ The time complexity of this code is O(n), given that the automaton has to proces
 GeeksforGeeks. (2024, september 12). *Introduction of Finite Automata*. GeeksforGeeks. https://www.geeksforgeeks.org/introduction-of-finite-automata/ 
 
 MDN Web Docs. (2025, january 24). *Regular expressions - JavaScript*. MDN. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions
+
+Wikipedia. (2024, december 20). Quenya. Wikipedia, la Enciclopedia Libre. https://es.wikipedia.org/wiki/Quenya#:~:text=El%20quenya%20(pronunciado%20/AFI:,grados%20de%20detalle%2C%20fueron%20inventadas
