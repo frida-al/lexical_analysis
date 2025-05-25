@@ -7,7 +7,7 @@ move(q2, q5, n).
 move(q3, qF, o).
 move(q3, q6, ú).
 move(q6, q7, n).
-move(q7, qF, ë).
+move(q7, qF, 3).
 move(q6, q8, r).
 move(q8, q9, i).
 move(q9, qF, l).
@@ -59,10 +59,10 @@ stern:-
     write('Expected: false'), nl,
     travelAutomaton([s, t, e, r, n]).
 
-andúnë:- 
-    write('andúnë'), nl,
+andún3:- 
+    write('andún3'), nl,
     write('Expected: true'), nl,
-    travelAutomaton([a, n, d, ú, n, ë]).
+    travelAutomaton([a, n, d, ú, n, 3]).
 
 möhrrübe:- 
     write('möhrrübe'), nl,
