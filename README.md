@@ -58,6 +58,11 @@ Breaking it down a little bit, it indicates the accepted words must start with A
 The time complexity of this code is O(n), given that the automaton has to process each letter of the word and lookup all the paths, consulting one in which the word will be valid. This is achievable thanks to the recursive function.
 
 ---
+### Version
+Version 2.0. According to the feedback given after the first hand in, I modify the word 'andúnë' to 'andún3', so that it would leave out the special character causing the conflict. It has been previously checked during an appointment.
+
+
+---
 ## References
 GeeksforGeeks. (2024, september 12). *Introduction of Finite Automata*. GeeksforGeeks. https://www.geeksforgeeks.org/introduction-of-finite-automata/ 
 
